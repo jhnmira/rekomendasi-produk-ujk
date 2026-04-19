@@ -3,21 +3,10 @@ import pandas as pd
 from utils.rekomendasi import filter_produk
 
 st.set_page_config(page_title="Rekomendasi Produk", page_icon="💻")
-st.markdown("""
-<style>
-[data-testid="stAppViewContainer"] {
-    background-color: #f0f2f6;
-}
-
-.stButton > button {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 8px;
-}
-</style>
-""", unsafe_allow_html=True)
 
 st.title("💻 Sistem Rekomendasi Produk Elektronik")
+
+st.info("Silakan pilih kategori dan masukkan budget, lalu klik tombol Cari")
 
 data = pd.read_csv("data/produk.csv")
 
@@ -34,7 +23,8 @@ if st.sidebar.button("Cari"):
         hasil = hasil.sort_values(by="rating", ascending=False)
 
         if not hasil.empty:
-            st.write("Hasil Rekomendasi:")
+            st.subheader("Hasil Rekomendasi")
+            st.success(f"Ditemukan {len(hasil)} produk")
             hasil['harga'] = hasil['harga'].apply(lambda x: f"Rp {x:,.0f}")
             st.dataframe(hasil)
         else:
