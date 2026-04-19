@@ -1,1 +1,26 @@
-
+id,nama,kategori,harga,rating
+1,Samsung Galaxy A14,HP,2500000,4.5
+2,Xiaomi Redmi Note 12,HP,3000000,4.6
+3,Infinix Hot 30,HP,1800000,4.3
+4,iPhone 11,HP,6500000,4.7
+5,Oppo A78,HP,3200000,4.4
+6,Asus VivoBook 14,Laptop,7000000,4.5
+7,Acer Aspire 5,Laptop,7500000,4.6
+8,Lenovo IdeaPad 3,Laptop,6800000,4.4
+9,HP Pavilion 14,Laptop,9000000,4.7
+10,Dell Inspiron 15,Laptop,8500000,4.5
+11,Polytron LED TV 32 inch,TV,2000000,4.3
+12,Samsung Smart TV 43 inch,TV,4500000,4.6
+13,LG UHD TV 50 inch,TV,6000000,4.7
+14,Xiaomi Smart TV 4A 32 inch,TV,2300000,4.4
+15,TCL Android TV 40 inch,TV,3500000,4.5
+16,Sharp Kulkas 1 Pintu,Kulkas,2200000,4.3
+17,LG Kulkas 2 Pintu,Kulkas,5000000,4.6
+18,Polytron Kulkas Belleza,Kulkas,3000000,4.4
+19,Samsung Kulkas Digital Inverter,Kulkas,5500000,4.7
+20,Aqua Japan Kulkas 2 Pintu,Kulkas,4000000,4.5
+21,Rice Cooker Miyako,Rice Cooker,300000,4.2
+22,Philips Rice Cooker,Rice Cooker,500000,4.5
+23,Magic Com Cosmos,Rice Cooker,400000,4.3
+24,Yong Ma Rice Cooker,Rice Cooker,600000,4.6
+25,Sharp Rice Cooker,Rice Cooker,450000,4.4
